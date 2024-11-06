@@ -1,0 +1,61 @@
+@import './sass/bootstrap';
+$primary: #C1DCDC;
+
+#root {
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+
+    .section-1 {
+        background-color: $primary ;
+        border-radius: 24px;
+    }
+
+    .section-2 {
+        .row {
+            .col-md-6 {
+
+                transition: 0.5s all ease-in-out;
+            }
+        }
+    }
+
+    .section-3 {
+        .Card-Cover {
+
+
+            .Card {
+                user-select: none;
+                cursor: pointer;
+                border-radius: 24px;
+                padding: 20px 0px;
+                transition: 0.5s all ease-in-out;
+            }
+
+            .Card:hover {
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+    }
+
+    .section-5 {
+
+        .carousel-indicators {
+
+            button {
+                height: 20px;
+                width: 20px;
+                border-radius: 100%;
+                background-color: $primary;
+
+                position: relative;
+                top: 50px
+            }
+        }
+    }
+}
