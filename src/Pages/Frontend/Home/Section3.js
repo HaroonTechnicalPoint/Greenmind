@@ -7,7 +7,7 @@ import box from '../../../assets/images/box.png'
 const Section3 = () => {
     return (
         <main className='container section-3    '>
-            <div className="row px-0">
+            <div className="row px-0 mt-5">
                 <div className="col-12 px-0">
                     <h4 className='text-center '>About Us</h4>
                     <p className='text-muted text-center'>Order now and appreciate the beauty of nature</p>

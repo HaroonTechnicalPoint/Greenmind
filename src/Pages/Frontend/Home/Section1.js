@@ -18,9 +18,9 @@ const Section1 = () => {
             </div>
             <div className="row">
               <div className="col-12  ms-md-3 mt-3 d-flex justify-content-center justify-content-lg-start align-items-center">
-                <div class=" mb-3 w-75  input-group">
+                <div class=" mb-3 w-75 search-main  ">
                   <input type="text" class="form-control py-3 " placeholder="What are you looking for?" />
-                  <button class="btn btn-light " type="button" id="button-addon2"><i class="bi bi-search bg-primary p-2 rounded-3 "></i></button>
+                  <button class="btn btn-primary" type="button" ><i class="bi bi-search bg-primary p-2 rounded-3 "></i></button>
                 </div>
               </div>
             </div>

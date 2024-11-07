@@ -44,7 +44,7 @@ const Section5 = () => {
                                         <div className='col-12 col-md-6 '>
                                             <div className=' bg-primary p-5  rounded-3'>
                                                 <p className='text-muted text-center'>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"><i class="bi bi-star"></i></i>&nbsp;<span className='fw-bold'>4.5</span>&nbsp;<span className='fw-bold'>4.5</span></div>
+                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"><i class="bi bi-star"></i></i>&nbsp;<span className='fw-bold'>4.5</span></div>
                                             </div>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ const Section5 = () => {
                                         <div className='col-12 col-md-6 mb-3'>
                                             <div className=' bg-primary p-5  rounded-3'>
                                                 <p className='text-muted text-center'>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"><i class="bi bi-star"></i></i>&nbsp;<span className='fw-bold'>4.5</span>&nbsp;<span className='fw-bold'>4.5</span></div>
+                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"><i class="bi bi-star"></i></i>&nbsp;<span className='fw-bold'>4.5</span></div>
                                             </div>
                                         </div>
                                         <div className='col-12 col-md-6 '>

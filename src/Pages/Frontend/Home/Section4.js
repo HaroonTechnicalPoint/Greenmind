@@ -2,6 +2,7 @@ import React from 'react'
 import natural_Plants_3 from '../../../assets/images/Frame 37.png'
 import natural_Plants_1 from '../../../assets/images/Frame 39.png'
 import natural_Plants_2 from '../../../assets/images/Frame 38.png'
+import { Image } from 'antd'
 
 const Section4 = () => {
     return (
@@ -19,17 +20,17 @@ const Section4 = () => {
             <div className="container-fluid py-3  bg-primary">
 
                 <div className="row mt-5 ">
-                    <div className="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column">
-                        <img src={natural_Plants_1} className='img-fluid ' alt="Natural Flowers" />
+                    <div className="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column mb-4 mb-sm-0">
+                        <Image  src={natural_Plants_1} className='img-fluid ' alt="Natural Flowers" />
                         <h5 className='text-center fw-bold py-2'>Natural Plants</h5>
                     </div>
 
                     <div className="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column">
-                        <img src={natural_Plants_2} className='img-fluid mt-lg-5 my-2' alt="Natural Flowers" />
+                        <Image  src={natural_Plants_2} className='img-fluid mt-lg-5 my-2' alt="Natural Flowers" />
                         <h5 className='text-center fw-bold py-2'>Plant Accessories</h5>
                     </div>
-                    <div className="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column">
-                        <img src={natural_Plants_3} className='img-fluid ' alt="Natural Flowers" />
+                    <div className="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column mb-4 mb-md-0">
+                        <Image  src={natural_Plants_3} className='img-fluid ' alt="Natural Flowers" />
                         <h5 className='text-center fw-bold py-2'>Artificial Plants</h5>
                     </div>
                 </div>

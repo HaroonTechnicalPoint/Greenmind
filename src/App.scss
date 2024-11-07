@@ -1,4 +1,5 @@
 @import './sass/bootstrap';
+@import './sass/Auth';
 $primary: #C1DCDC;
 
 #root {
@@ -14,9 +15,28 @@ main {
     .section-1 {
         background-color: $primary ;
         border-radius: 24px;
+
+        .search-main {
+            position: relative;
+
+            button {
+                background-color: $primary;
+                position: absolute;
+                top: 5px;
+                right: 6px;
+                height: 50px;
+
+                cursor: pointer;
+            }
+
+        }
     }
 
     .section-2 {
+        .products {
+            cursor: pointer;
+        }
+
         .row {
             .col-md-6 {
 
@@ -58,4 +78,19 @@ main {
             }
         }
     }
+
+    .product-page {
+
+        .product-card {
+            border-radius: 24px;
+
+            .products {
+                border-radius: 24px;
+                Image {
+                    height: 300px;
+                }
+            }
+        }
+    }
+
 }

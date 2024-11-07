@@ -1,0 +1,23 @@
+$primary: #C1DCDC;
+
+.Auth {
+    background-color: $primary ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .card {
+        max-width: 500px;
+        background-color: white;
+       
+
+        Form {
+
+            .ant-form-item-label>label {
+                  color: $primary;}
+        }
+    }
+
+}
