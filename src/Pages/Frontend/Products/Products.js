@@ -8,74 +8,78 @@ import natural_Plants_2 from '../../../assets/images/Frame 38.png'
 import natural_Plants_4 from '../../../assets/images/pant1.jpg'
 import natural_Plants_5 from '../../../assets/images/plant2.jpg'
 import { Image } from 'antd';
+import { Fade } from 'react-awesome-reveal'
+import { Link } from 'react-router-dom'
 
 const Products = () => {
     return (
-        <main className='section-2 mt-5 container'>
-            <div className="row product-page">
+        <main className='section-2 mt-5 container bg-dark'>
+            <Fade>
+                <div className="row product-page">
 
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={alovara_plants} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={alovara_plants} className='img-fluid' alt="" />
+                        <Link to='/NaturalPlants' className='mt-1 text-decoration-none  text-center'>
+                            <h5 className='text-dark'>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </Link>
                     </div>
-                </div>
 
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image
-                        className='img-fluid'
-                        src={hang_plants}
-                    />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image
+                            className='img-fluid'
+                            src={hang_plants}
+                        />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={cactus_plants} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={cactus_plants} className='img-fluid' alt="" />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={natural_Plants_1} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={natural_Plants_1} className='img-fluid' alt="" />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={natural_Plants_2} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={natural_Plants_2} className='img-fluid' alt="" />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={natural_Plants_3} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={natural_Plants_3} className='img-fluid' alt="" />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={natural_Plants_4} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={natural_Plants_4} className='img-fluid' alt="" />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
-                    <Image src={natural_Plants_5} className='img-fluid' alt="" />
-                    <div className='mt-1 text-center'>
-                        <h5>Natural Plants</h5>
-                        <p className='text-muted'>₱ 1,400.00</p>
+                    <div className="col-md-6 col-lg-3 products d-flex justify-content-center align-items-center flex-column mb-2 mb-md-0 product-card">
+                        <Image src={natural_Plants_5} className='img-fluid' alt="" />
+                        <div className='mt-1 text-center'>
+                            <h5>Natural Plants</h5>
+                            <p className='text-muted'>₱ 1,400.00</p>
+                        </div>
                     </div>
+
                 </div>
-                
-            </div>
+            </Fade>
 
         </main>
     )
