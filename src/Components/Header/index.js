@@ -35,18 +35,18 @@ const Header = () => {
             <Nav className="ms-auto ms-lg-5">
               <Nav.Link >
                 <div class="dropdown">
-                  <button class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn text-muted border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     My Account
                   </button>
                   {!isAuth
-                    ? <ul class="dropdown-menu">
-                      <Link className=' text-decoration-none text-black' to='Auth/login'><li><button class="dropdown-item" >Login</button></li></Link>
-                      <Link className=' text-decoration-none text-black' to='Auth/register'><li><button class="dropdown-item" >Register</button></li></Link>
+                    ? <ul class="dropdown-menu border-0">
+                      <Link className=' text-decoration-none text-muted' to='Auth/login'><li><button class="dropdown-item border-0  text-muted" >Login</button></li></Link>
+                      <Link className=' text-decoration-none text-muted' to='Auth/register'><li><button class="dropdown-item border-0 text-muted " >Register</button></li></Link>
                     </ul>
-                    : <ul class="dropdown-menu">
-                      <Link className=' text-decoration-none text-black' to='/dashboard'><li><button class="dropdown-item" >Dashboard</button></li></Link>
-                      <Link className=' text-decoration-none text-black' to='orders'><li><button class="dropdown-item" >Orders</button></li></Link>
-                      <Link className=' text-decoration-none text-black' ><li><button class="dropdown-item" onClick={handelLogOut} >Logout</button></li></Link>
+                    : <ul class="dropdown-menu border-0">
+                      <Link className=' text-decoration-none text-muted' to='/dashboard'><li><button class="dropdown-item border-0  text-muted" >Dashboard</button></li></Link>
+                      <Link className=' text-decoration-none text-muted' to='orders'><li><button class="dropdown-item border-0 text-muted " >Orders</button></li></Link>
+                      <Link className=' text-decoration-none text-muted' ><li><button class="dropdown-item border-0 text-muted " onClick={handelLogOut} >Logout</button></li></Link>
                     </ul>
 
                   }
