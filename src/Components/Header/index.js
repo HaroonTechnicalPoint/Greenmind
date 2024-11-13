@@ -34,19 +34,19 @@ const Header = () => {
             </Nav>
             <Nav className="ms-auto ms-lg-5">
               <Nav.Link >
-                <div class="dropdown">
-                  <button class="btn text-muted border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown ">
+                  <button class="btn px-0 text-muted border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     My Account
                   </button>
                   {!isAuth
-                    ? <ul class="dropdown-menu border-0">
-                      <Link className=' text-decoration-none text-muted' to='Auth/login'><li><button class="dropdown-item border-0  text-muted" >Login</button></li></Link>
-                      <Link className=' text-decoration-none text-muted' to='Auth/register'><li><button class="dropdown-item border-0 text-muted " >Register</button></li></Link>
+                    ? <ul class="dropdown-menu border-0 bg-light">
+                      <Link className=' text-decoration-none text-muted' to='Auth/login'><li><button class="dropdown-item border-0 px-0 text-muted" >Login</button></li></Link>
+                      <Link className=' text-decoration-none text-muted' to='Auth/register'><li><button class="dropdown-item border-0 px-0 text-muted " >Register</button></li></Link>
                     </ul>
-                    : <ul class="dropdown-menu border-0">
-                      <Link className=' text-decoration-none text-muted' to='/dashboard'><li><button class="dropdown-item border-0  text-muted" >Dashboard</button></li></Link>
-                      <Link className=' text-decoration-none text-muted' to='orders'><li><button class="dropdown-item border-0 text-muted " >Orders</button></li></Link>
-                      <Link className=' text-decoration-none text-muted' ><li><button class="dropdown-item border-0 text-muted " onClick={handelLogOut} >Logout</button></li></Link>
+                    : <ul class="dropdown-menu border-0 bg-light">
+                      <Link className=' text-decoration-none text-muted' to='/dashboard'><li><button class="dropdown-item border-0 px-0  text-muted" >Dashboard</button></li></Link>
+                      <Link className=' tex~~t-decoration-none text-muted' to='orders'><li><button class="dropdown-item border-0 px-0 text-muted " >Orders</button></li></Link>
+                      <Link className=' text-decoration-none text-muted' ><li><button class="dropdown-item border-0 px-0 text-muted " onClick={handelLogOut} >Logout</button></li></Link>
                     </ul>
 
                   }
